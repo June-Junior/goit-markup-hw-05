@@ -1,0 +1,95 @@
+/*main-font-color #757575 */
+/*secondary-font-color #212121 */
+/*text-hover-color #2196F3 */
+/*white-color #FFFFFF */
+/*grey-icons #AFB1B8 */
+/*big-icons-fill-our-team-fill #F5F4FA */
+/*footer-color #2F303A */
+/*footer-text-gray rgba(255, 255, 255, 0.6) */
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+.portfolio-chapters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.portfolio-chapters__items {
+  margin-right: 8px;
+}
+.portfolio-chapters__items:last-child {
+  margin-right: 0;
+}
+.portfolio-chapters__buttons {
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: var(--big-icons-fill-our-team-fill);
+  border: none;
+  cursor: pointer;
+}
+.portfolio-chapters__buttons:hover,
+.portfolio-chapters__buttons:focus {
+  background-color: var(--text-hover-color);
+  color: var(--white-color);
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-list__items {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+.portfolio-list__items:nth-child(3n + 3) {
+  margin-right: 0;
+}
+.portfolio-list__items:nth-child(n + 7) {
+  margin-bottom: 0;
+}
+.portfolio-list__card-link {
+  display: block;
+}
+.portfolio-list__card-content {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.portfolio-list__item-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--secondary-font-color);
+}
+.portfolio-list__item-category {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--main-font-color);
+}
+.portfolio-list__item-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+}
