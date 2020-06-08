@@ -75,16 +75,27 @@ font-family: 'Raleway', sans-serif;*/
 }
 .portfolio-list__image-text {
   position: absolute;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  opacity: 0.9;
-  background-color: var(--text-hover-color);
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 63px;
+  padding-bottom: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
+  opacity: 0;
+  overflow: hidden;
+}
+.portfolio-list__image-text:hover {
+  opacity: 0.9;
+  color: var(--white-color);
 }
 /*.portfolio-list__card-link:hover .portfolio-list__image-text {
   opacity: 0.9;
