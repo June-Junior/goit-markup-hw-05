@@ -297,3 +297,48 @@ a:focus {
   background-image: url(../images/icon-send.png);
   background-size: contain;
 }
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.backdrop--hidden {
+  opacity: 0.2;
+  pointer-events: none;
+}
+.backdrop__modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 528px;
+  min-height: 581px;
+  background-color: var(--white-color);
+  padding: 40px;
+}
+.backdrop__modal-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--secondary-font-color);
+}
+.backdrop__modal-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  background-color: var(--text-hover-color);
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
