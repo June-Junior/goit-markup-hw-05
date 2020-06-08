@@ -21,7 +21,6 @@ font-family: 'Raleway', sans-serif;*/
     ),
     url(../images/hero.jpg);
   text-align: center;
-  outline: 1px solid black;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .hero__button {
@@ -138,6 +137,7 @@ font-family: 'Raleway', sans-serif;*/
   display: flex;
 }
 .our-activities__item {
+  position: relative;
   margin-right: 30px;
   border-radius: 4px;
 }
@@ -145,6 +145,10 @@ font-family: 'Raleway', sans-serif;*/
   margin-right: 0;
 }
 .our-activities__subheadings {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   padding-top: 27px;
   padding-bottom: 27px;
   background-color: rgba(47, 48, 58, 0.8);
@@ -255,6 +259,7 @@ font-family: 'Raleway', sans-serif;*/
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: 250ms;
 }
 .our-clients__link:hover {
   color: var(--text-hover-color);

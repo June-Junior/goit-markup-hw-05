@@ -72,6 +72,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 .portfolio-list__card-image:hover::before {
   opacity: 0.9;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list__image-text {
   position: absolute;
@@ -96,6 +97,7 @@ font-family: 'Raleway', sans-serif;*/
 .portfolio-list__image-text:hover {
   opacity: 0.9;
   color: var(--white-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*.portfolio-list__card-link:hover .portfolio-list__image-text {
   opacity: 0.9;
