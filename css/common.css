@@ -152,7 +152,7 @@ body {
   margin-right: 10px;
   justify-content: center;
 }
-.contacts__button:hover {
+.contacts__list:hover .contacts__button {
   color: var(--text-hover-color);
   cursor: pointer;
 }
@@ -312,6 +312,7 @@ a:focus {
   height: 50px;
   border-radius: 4px;
   justify-content: center;
+  align-items: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -327,7 +328,7 @@ a:focus {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  background-image: url(../images/icon-send.png);
+  background-image: url(../images/icon-send.svg);
   background-size: contain;
 }
 .backdrop {
